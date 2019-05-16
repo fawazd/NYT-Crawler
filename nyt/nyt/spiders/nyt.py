@@ -1,10 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Spyder Editor
-
-This is a temporary script file.
-"""
-
 from scrapy.spiders import CrawlSpider, Rule
 from nyt.items import NewsItem
 from scrapy.linkextractors.lxmlhtml import LxmlLinkExtractor
